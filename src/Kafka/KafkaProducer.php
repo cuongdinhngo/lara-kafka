@@ -4,6 +4,8 @@ namespace App\Libraries\Kafka;
 
 use Illuminate\Support\Facades\Log;
 use LaraAssistant\LaraKafka\RdKafkaProducer;
+use RdKafka\Producer;
+use Rdkafka\ProducerTopic;
 
 class KafkaProducer
 {
