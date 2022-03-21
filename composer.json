@@ -1,0 +1,34 @@
+{
+    "name": "cuongdinhngo/lara-kafka",
+    "description": "Laravel Kafka",
+    "keywords": [
+        "laravel",
+        "kafka",
+        "message broker",
+        "producer",
+        "consumer"
+    ],
+    "homepage": "https://github.com/cuongdinhngo/lara-kafka",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ngo Dinh Cuong",
+            "email": "dinhcuongngo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaraAssistant\\LaraKafka\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaraAssistant\\LaraKafka\\LaraKafkaServiceProvider"
+            ]
+        }
+    }
+}
